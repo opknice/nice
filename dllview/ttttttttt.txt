@@ -1,0 +1,3150 @@
+==================================================
+Function Name     : IAP_AddEventListener
+Address           : IAPSDK_orig.IAP_AddEventListener
+Relative Address  : 0x0001a016
+Ordinal           : 1 (0x1)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_AddPackageItem
+Address           : IAPSDK_orig.IAP_AddPackageItem
+Relative Address  : 0x0001a04a
+Ordinal           : 2 (0x2)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_BuyProduct
+Address           : IAPSDK_orig.IAP_BuyProduct
+Relative Address  : 0x0001a078
+Ordinal           : 3 (0x3)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_CheckBalance
+Address           : IAPSDK_orig.IAP_CheckBalance
+Relative Address  : 0x0001a0a4
+Ordinal           : 4 (0x4)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_CheckNetworkStatus
+Address           : IAPSDK_orig.IAP_CheckNetworkStatus
+Relative Address  : 0x0001a0d8
+Ordinal           : 5 (0x5)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_CheckOrderResult
+Address           : IAPSDK_orig.IAP_CheckOrderResult
+Relative Address  : 0x0001a110
+Ordinal           : 6 (0x6)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_ClearEventListeners
+Address           : IAPSDK_orig.IAP_ClearEventListeners
+Relative Address  : 0x0001a149
+Ordinal           : 7 (0x7)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_ClearPackageItems
+Address           : IAPSDK_orig.IAP_ClearPackageItems
+Relative Address  : 0x0001a183
+Ordinal           : 8 (0x8)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_CloseAgreementUI
+Address           : IAPSDK_orig.IAP_CloseAgreementUI
+Relative Address  : 0x0001a1ba
+Ordinal           : 9 (0x9)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_CloseAllPopups
+Address           : IAPSDK_orig.IAP_CloseAllPopups
+Relative Address  : 0x0001a1ee
+Ordinal           : 10 (0xa)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_ConfirmOrder
+Address           : IAPSDK_orig.IAP_ConfirmOrder
+Relative Address  : 0x0001a21e
+Ordinal           : 11 (0xb)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_ConfirmPurchase
+Address           : IAPSDK_orig.IAP_ConfirmPurchase
+Relative Address  : 0x0001a24f
+Ordinal           : 12 (0xc)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_ConfirmPurchaseSharp
+Address           : IAPSDK_orig.IAP_ConfirmPurchaseSharp
+Relative Address  : 0x0001a288
+Ordinal           : 13 (0xd)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_CreateAgreementUI
+Address           : IAPSDK_orig.IAP_CreateAgreementUI
+Relative Address  : 0x0001a2c3
+Ordinal           : 14 (0xe)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_CreateOrder
+Address           : IAPSDK_orig.IAP_CreateOrder
+Relative Address  : 0x0001a2f5
+Ordinal           : 15 (0xf)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_CreateOrderV2
+Address           : IAPSDK_orig.IAP_CreateOrderV2
+Relative Address  : 0x0001a323
+Ordinal           : 16 (0x10)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_CreateWebView
+Address           : IAPSDK_orig.IAP_CreateWebView
+Relative Address  : 0x0001a353
+Ordinal           : 17 (0x11)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_DestroyAgreementUI
+Address           : IAPSDK_orig.IAP_DestroyAgreementUI
+Relative Address  : 0x0001a388
+Ordinal           : 18 (0x12)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_DestroyWebView
+Address           : IAPSDK_orig.IAP_DestroyWebView
+Relative Address  : 0x0001a3be
+Ordinal           : 19 (0x13)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_FetchInventory
+Address           : IAPSDK_orig.IAP_FetchInventory
+Relative Address  : 0x0001a3f0
+Ordinal           : 20 (0x14)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_FetchInventorySharp
+Address           : IAPSDK_orig.IAP_FetchInventorySharp
+Relative Address  : 0x0001a427
+Ordinal           : 21 (0x15)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_FetchProducts
+Address           : IAPSDK_orig.IAP_FetchProducts
+Relative Address  : 0x0001a45d
+Ordinal           : 22 (0x16)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_FetchProductsSharp
+Address           : IAPSDK_orig.IAP_FetchProductsSharp
+Relative Address  : 0x0001a492
+Ordinal           : 23 (0x17)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_FetchShopCategories
+Address           : IAPSDK_orig.IAP_FetchShopCategories
+Relative Address  : 0x0001a4cd
+Ordinal           : 24 (0x18)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_FetchShopCategoriesSharp
+Address           : IAPSDK_orig.IAP_FetchShopCategoriesSharp
+Relative Address  : 0x0001a50e
+Ordinal           : 25 (0x19)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_FetchTermsAgreement
+Address           : IAPSDK_orig.IAP_FetchTermsAgreement
+Relative Address  : 0x0001a54f
+Ordinal           : 26 (0x1a)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_FetchTermsAgreementSharp
+Address           : IAPSDK_orig.IAP_FetchTermsAgreementSharp
+Relative Address  : 0x0001a590
+Ordinal           : 27 (0x1b)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_FetchVoidedPurchases
+Address           : IAPSDK_orig.IAP_FetchVoidedPurchases
+Relative Address  : 0x0001a5d2
+Ordinal           : 28 (0x1c)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_FetchVoidedPurchasesSharp
+Address           : IAPSDK_orig.IAP_FetchVoidedPurchasesSharp
+Relative Address  : 0x0001a615
+Ordinal           : 29 (0x1d)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_Finalize
+Address           : IAPSDK_orig.IAP_Finalize
+Relative Address  : 0x0001a64c
+Ordinal           : 30 (0x1e)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetAccountBalance
+Address           : IAPSDK_orig.IAP_GetAccountBalance
+Relative Address  : 0x0001a67b
+Ordinal           : 31 (0x1f)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetAppID
+Address           : IAPSDK_orig.IAP_GetAppID
+Relative Address  : 0x0001a6aa
+Ordinal           : 32 (0x20)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetBaseURL
+Address           : IAPSDK_orig.IAP_GetBaseURL
+Relative Address  : 0x0001a6d2
+Ordinal           : 33 (0x21)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetConfigValue
+Address           : IAPSDK_orig.IAP_GetConfigValue
+Relative Address  : 0x0001a700
+Ordinal           : 34 (0x22)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetCurrencyCode
+Address           : IAPSDK_orig.IAP_GetCurrencyCode
+Relative Address  : 0x0001a733
+Ordinal           : 35 (0x23)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetDeviceID
+Address           : IAPSDK_orig.IAP_GetDeviceID
+Relative Address  : 0x0001a763
+Ordinal           : 36 (0x24)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetErrorDetail
+Address           : IAPSDK_orig.IAP_GetErrorDetail
+Relative Address  : 0x0001a792
+Ordinal           : 37 (0x25)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetLastError
+Address           : IAPSDK_orig.IAP_GetLastError
+Relative Address  : 0x0001a7c2
+Ordinal           : 38 (0x26)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetLocale
+Address           : IAPSDK_orig.IAP_GetLocale
+Relative Address  : 0x0001a7ed
+Ordinal           : 39 (0x27)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetLogPath
+Address           : IAPSDK_orig.IAP_GetLogPath
+Relative Address  : 0x0001a816
+Ordinal           : 40 (0x28)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetNetworkType
+Address           : IAPSDK_orig.IAP_GetNetworkType
+Relative Address  : 0x0001a844
+Ordinal           : 41 (0x29)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetOSVersion
+Address           : IAPSDK_orig.IAP_GetOSVersion
+Relative Address  : 0x0001a874
+Ordinal           : 42 (0x2a)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetPackageItems
+Address           : IAPSDK_orig.IAP_GetPackageItems
+Relative Address  : 0x0001a8a5
+Ordinal           : 43 (0x2b)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetPlatformType
+Address           : IAPSDK_orig.IAP_GetPlatformType
+Relative Address  : 0x0001a8d9
+Ordinal           : 44 (0x2c)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetProductDetails
+Address           : IAPSDK_orig.IAP_GetProductDetails
+Relative Address  : 0x0001a90f
+Ordinal           : 45 (0x2d)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetProductList
+Address           : IAPSDK_orig.IAP_GetProductList
+Relative Address  : 0x0001a944
+Ordinal           : 46 (0x2e)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetSDKVersion
+Address           : IAPSDK_orig.IAP_GetSDKVersion
+Relative Address  : 0x0001a975
+Ordinal           : 47 (0x2f)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetSessionID
+Address           : IAPSDK_orig.IAP_GetSessionID
+Relative Address  : 0x0001a9a4
+Ordinal           : 48 (0x30)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetTermsAgreementStatus
+Address           : IAPSDK_orig.IAP_GetTermsAgreementStatus
+Relative Address  : 0x0001a9dd
+Ordinal           : 49 (0x31)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetToken
+Address           : IAPSDK_orig.IAP_GetToken
+Relative Address  : 0x0001aa12
+Ordinal           : 50 (0x32)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetUserID
+Address           : IAPSDK_orig.IAP_GetUserID
+Relative Address  : 0x0001aa39
+Ordinal           : 51 (0x33)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetVersion
+Address           : IAPSDK_orig.IAP_GetVersion
+Relative Address  : 0x0001aa62
+Ordinal           : 52 (0x34)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_GetWebViewURL
+Address           : IAPSDK_orig.IAP_GetWebViewURL
+Relative Address  : 0x0001aa8f
+Ordinal           : 53 (0x35)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_HideAgreementUI
+Address           : IAPSDK_orig.IAP_HideAgreementUI
+Relative Address  : 0x0001aac1
+Ordinal           : 54 (0x36)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_HideWebView
+Address           : IAPSDK_orig.IAP_HideWebView
+Relative Address  : 0x0001aaf1
+Ordinal           : 55 (0x37)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_Initialize
+Address           : IAPSDK_orig.IAP_Initialize
+Relative Address  : 0x0001ab1c
+Ordinal           : 56 (0x38)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_InitializeV2
+Address           : IAPSDK_orig.IAP_InitializeV2
+Relative Address  : 0x0001ab48
+Ordinal           : 57 (0x39)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_IsAgreementUIVisible
+Address           : IAPSDK_orig.IAP_IsAgreementUIVisible
+Relative Address  : 0x0001ab7e
+Ordinal           : 58 (0x3a)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_IsInitialized
+Address           : IAPSDK_orig.IAP_IsInitialized
+Relative Address  : 0x0001abb5
+Ordinal           : 59 (0x3b)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_IsWebViewVisible
+Address           : IAPSDK_orig.IAP_IsWebViewVisible
+Relative Address  : 0x0001abe8
+Ordinal           : 60 (0x3c)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_LoadAgreementURL
+Address           : IAPSDK_orig.IAP_LoadAgreementURL
+Relative Address  : 0x0001ac1e
+Ordinal           : 61 (0x3d)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_LoadWebViewURL
+Address           : IAPSDK_orig.IAP_LoadWebViewURL
+Relative Address  : 0x0001ac52
+Ordinal           : 62 (0x3e)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_LogDebug
+Address           : IAPSDK_orig.IAP_LogDebug
+Relative Address  : 0x0001ac7e
+Ordinal           : 63 (0x3f)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_LogError
+Address           : IAPSDK_orig.IAP_LogError
+Relative Address  : 0x0001aca4
+Ordinal           : 64 (0x40)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_LogInfo
+Address           : IAPSDK_orig.IAP_LogInfo
+Relative Address  : 0x0001acc9
+Ordinal           : 65 (0x41)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_OpenAgreementUI
+Address           : IAPSDK_orig.IAP_OpenAgreementUI
+Relative Address  : 0x0001acf5
+Ordinal           : 66 (0x42)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_QueryBalance
+Address           : IAPSDK_orig.IAP_QueryBalance
+Relative Address  : 0x0001ad26
+Ordinal           : 67 (0x43)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_QueryOrder
+Address           : IAPSDK_orig.IAP_QueryOrder
+Relative Address  : 0x0001ad52
+Ordinal           : 68 (0x44)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_QueryOrderV2
+Address           : IAPSDK_orig.IAP_QueryOrderV2
+Relative Address  : 0x0001ad7e
+Ordinal           : 69 (0x45)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_QueryProductList
+Address           : IAPSDK_orig.IAP_QueryProductList
+Relative Address  : 0x0001adb0
+Ordinal           : 70 (0x46)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_QueryPurchasedItems
+Address           : IAPSDK_orig.IAP_QueryPurchasedItems
+Relative Address  : 0x0001ade9
+Ordinal           : 71 (0x47)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_RemoveEventListener
+Address           : IAPSDK_orig.IAP_RemoveEventListener
+Relative Address  : 0x0001ae25
+Ordinal           : 72 (0x48)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_RequestAgreement
+Address           : IAPSDK_orig.IAP_RequestAgreement
+Relative Address  : 0x0001ae5e
+Ordinal           : 73 (0x49)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_RequestAuth
+Address           : IAPSDK_orig.IAP_RequestAuth
+Relative Address  : 0x0001ae8f
+Ordinal           : 74 (0x4a)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_RequestPurchase
+Address           : IAPSDK_orig.IAP_RequestPurchase
+Relative Address  : 0x0001aebf
+Ordinal           : 75 (0x4b)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_RequestTerms
+Address           : IAPSDK_orig.IAP_RequestTerms
+Relative Address  : 0x0001aef0
+Ordinal           : 76 (0x4c)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_ResetSession
+Address           : IAPSDK_orig.IAP_ResetSession
+Relative Address  : 0x0001af1e
+Ordinal           : 77 (0x4d)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_RestorePurchases
+Address           : IAPSDK_orig.IAP_RestorePurchases
+Relative Address  : 0x0001af50
+Ordinal           : 78 (0x4e)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_SetAppID
+Address           : IAPSDK_orig.IAP_SetAppID
+Relative Address  : 0x0001af7e
+Ordinal           : 79 (0x4f)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_SetBaseURL
+Address           : IAPSDK_orig.IAP_SetBaseURL
+Relative Address  : 0x0001afa6
+Ordinal           : 80 (0x50)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_SetConfigValue
+Address           : IAPSDK_orig.IAP_SetConfigValue
+Relative Address  : 0x0001afd4
+Ordinal           : 81 (0x51)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_SetLocale
+Address           : IAPSDK_orig.IAP_SetLocale
+Relative Address  : 0x0001b001
+Ordinal           : 82 (0x52)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_SetLogHandler
+Address           : IAPSDK_orig.IAP_SetLogHandler
+Relative Address  : 0x0001b02d
+Ordinal           : 83 (0x53)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_SetLogLevel
+Address           : IAPSDK_orig.IAP_SetLogLevel
+Relative Address  : 0x0001b05b
+Ordinal           : 84 (0x54)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_SetSessionID
+Address           : IAPSDK_orig.IAP_SetSessionID
+Relative Address  : 0x0001b088
+Ordinal           : 85 (0x55)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_SetToken
+Address           : IAPSDK_orig.IAP_SetToken
+Relative Address  : 0x0001b0b2
+Ordinal           : 86 (0x56)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_SetUserID
+Address           : IAPSDK_orig.IAP_SetUserID
+Relative Address  : 0x0001b0d9
+Ordinal           : 87 (0x57)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_ShowAgreementUI
+Address           : IAPSDK_orig.IAP_ShowAgreementUI
+Relative Address  : 0x0001b107
+Ordinal           : 88 (0x58)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_ShowWebView
+Address           : IAPSDK_orig.IAP_ShowWebView
+Relative Address  : 0x0001b137
+Ordinal           : 89 (0x59)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_StartPayment
+Address           : IAPSDK_orig.IAP_StartPayment
+Relative Address  : 0x0001b164
+Ordinal           : 90 (0x5a)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_StartPaymentSharp
+Address           : IAPSDK_orig.IAP_StartPaymentSharp
+Relative Address  : 0x0001b197
+Ordinal           : 91 (0x5b)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_StartPurchase
+Address           : IAPSDK_orig.IAP_StartPurchase
+Relative Address  : 0x0001b1cb
+Ordinal           : 92 (0x5c)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_StartPurchaseSharp
+Address           : IAPSDK_orig.IAP_StartPurchaseSharp
+Relative Address  : 0x0001b200
+Ordinal           : 93 (0x5d)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_UnInitialize
+Address           : IAPSDK_orig.IAP_UnInitialize
+Relative Address  : 0x0001b234
+Ordinal           : 94 (0x5e)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : IAP_UpdateTermsAgreement
+Address           : IAPSDK_orig.IAP_UpdateTermsAgreement
+Relative Address  : 0x0001b26a
+Ordinal           : 95 (0x5f)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_add_breadcrumb
+Address           : IAPSDK_orig.sentry_add_breadcrumb
+Relative Address  : 0x0001b2a5
+Ordinal           : 96 (0x60)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_capture_event
+Address           : IAPSDK_orig.sentry_capture_event
+Relative Address  : 0x0001b2dc
+Ordinal           : 97 (0x61)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_capture_user_feedback
+Address           : IAPSDK_orig.sentry_capture_user_feedback
+Relative Address  : 0x0001b31a
+Ordinal           : 98 (0x62)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_clear_crashed_last_run
+Address           : IAPSDK_orig.sentry_clear_crashed_last_run
+Relative Address  : 0x0001b361
+Ordinal           : 99 (0x63)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_clear_modulecache
+Address           : IAPSDK_orig.sentry_clear_modulecache
+Relative Address  : 0x0001b3a4
+Ordinal           : 100 (0x64)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_close
+Address           : IAPSDK_orig.sentry_close
+Relative Address  : 0x0001b3d6
+Ordinal           : 101 (0x65)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_end_session
+Address           : IAPSDK_orig.sentry_end_session
+Relative Address  : 0x0001b402
+Ordinal           : 102 (0x66)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_end_session_with_status
+Address           : IAPSDK_orig.sentry_end_session_with_status
+Relative Address  : 0x0001b440
+Ordinal           : 103 (0x67)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_envelope_free
+Address           : IAPSDK_orig.sentry_envelope_free
+Relative Address  : 0x0001b480
+Ordinal           : 104 (0x68)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_envelope_get_event
+Address           : IAPSDK_orig.sentry_envelope_get_event
+Relative Address  : 0x0001b4bb
+Ordinal           : 105 (0x69)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_envelope_get_transaction
+Address           : IAPSDK_orig.sentry_envelope_get_transaction
+Relative Address  : 0x0001b501
+Ordinal           : 106 (0x6a)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_envelope_serialize
+Address           : IAPSDK_orig.sentry_envelope_serialize
+Relative Address  : 0x0001b547
+Ordinal           : 107 (0x6b)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_envelope_write_to_file
+Address           : IAPSDK_orig.sentry_envelope_write_to_file
+Relative Address  : 0x0001b58b
+Ordinal           : 108 (0x6c)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_envelope_write_to_file_n
+Address           : IAPSDK_orig.sentry_envelope_write_to_file_n
+Relative Address  : 0x0001b5d5
+Ordinal           : 109 (0x6d)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_event_add_exception
+Address           : IAPSDK_orig.sentry_event_add_exception
+Relative Address  : 0x0001b61c
+Ordinal           : 110 (0x6e)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_event_add_thread
+Address           : IAPSDK_orig.sentry_event_add_thread
+Relative Address  : 0x0001b65b
+Ordinal           : 111 (0x6f)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_event_value_add_stacktrace
+Address           : IAPSDK_orig.sentry_event_value_add_stacktrace
+Relative Address  : 0x0001b6a1
+Ordinal           : 112 (0x70)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_flush
+Address           : IAPSDK_orig.sentry_flush
+Relative Address  : 0x0001b6dc
+Ordinal           : 113 (0x71)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_free
+Address           : IAPSDK_orig.sentry_free
+Relative Address  : 0x0001b701
+Ordinal           : 114 (0x72)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_get_crashed_last_run
+Address           : IAPSDK_orig.sentry_get_crashed_last_run
+Relative Address  : 0x0001b735
+Ordinal           : 115 (0x73)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_get_modules_list
+Address           : IAPSDK_orig.sentry_get_modules_list
+Relative Address  : 0x0001b775
+Ordinal           : 116 (0x74)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_handle_exception
+Address           : IAPSDK_orig.sentry_handle_exception
+Relative Address  : 0x0001b7b1
+Ordinal           : 117 (0x75)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_init
+Address           : IAPSDK_orig.sentry_init
+Relative Address  : 0x0001b7e1
+Ordinal           : 118 (0x76)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_malloc
+Address           : IAPSDK_orig.sentry_malloc
+Relative Address  : 0x0001b807
+Ordinal           : 119 (0x77)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_add_attachment
+Address           : IAPSDK_orig.sentry_options_add_attachment
+Relative Address  : 0x0001b83f
+Ordinal           : 120 (0x78)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_add_attachment_n
+Address           : IAPSDK_orig.sentry_options_add_attachment_n
+Relative Address  : 0x0001b889
+Ordinal           : 121 (0x79)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_add_attachmentw
+Address           : IAPSDK_orig.sentry_options_add_attachmentw
+Relative Address  : 0x0001b8d4
+Ordinal           : 122 (0x7a)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_add_attachmentw_n
+Address           : IAPSDK_orig.sentry_options_add_attachmentw_n
+Relative Address  : 0x0001b920
+Ordinal           : 123 (0x7b)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_free
+Address           : IAPSDK_orig.sentry_options_free
+Relative Address  : 0x0001b961
+Ordinal           : 124 (0x7c)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_get_auto_session_tracking
+Address           : IAPSDK_orig.sentry_options_get_auto_session_tracking
+Relative Address  : 0x0001b9aa
+Ordinal           : 125 (0x7d)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_get_ca_certs
+Address           : IAPSDK_orig.sentry_options_get_ca_certs
+Relative Address  : 0x0001b9fb
+Ordinal           : 126 (0x7e)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_get_debug
+Address           : IAPSDK_orig.sentry_options_get_debug
+Relative Address  : 0x0001ba3c
+Ordinal           : 127 (0x7f)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_get_dist
+Address           : IAPSDK_orig.sentry_options_get_dist
+Relative Address  : 0x0001ba79
+Ordinal           : 128 (0x80)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_get_dsn
+Address           : IAPSDK_orig.sentry_options_get_dsn
+Relative Address  : 0x0001bab4
+Ordinal           : 129 (0x81)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_get_environment
+Address           : IAPSDK_orig.sentry_options_get_environment
+Relative Address  : 0x0001baf6
+Ordinal           : 130 (0x82)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_get_http_proxy
+Address           : IAPSDK_orig.sentry_options_get_http_proxy
+Relative Address  : 0x0001bb3f
+Ordinal           : 131 (0x83)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_get_max_breadcrumbs
+Address           : IAPSDK_orig.sentry_options_get_max_breadcrumbs
+Relative Address  : 0x0001bb8c
+Ordinal           : 132 (0x84)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_get_max_spans
+Address           : IAPSDK_orig.sentry_options_get_max_spans
+Relative Address  : 0x0001bbd8
+Ordinal           : 133 (0x85)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_get_release
+Address           : IAPSDK_orig.sentry_options_get_release
+Relative Address  : 0x0001bc1c
+Ordinal           : 134 (0x86)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_get_require_user_consent
+Address           : IAPSDK_orig.sentry_options_get_require_user_consent
+Relative Address  : 0x0001bc6b
+Ordinal           : 135 (0x87)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_get_sample_rate
+Address           : IAPSDK_orig.sentry_options_get_sample_rate
+Relative Address  : 0x0001bcbe
+Ordinal           : 136 (0x88)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_get_sdk_name
+Address           : IAPSDK_orig.sentry_options_get_sdk_name
+Relative Address  : 0x0001bd05
+Ordinal           : 137 (0x89)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_get_shutdown_timeout
+Address           : IAPSDK_orig.sentry_options_get_shutdown_timeout
+Relative Address  : 0x0001bd51
+Ordinal           : 138 (0x8a)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_get_symbolize_stacktraces
+Address           : IAPSDK_orig.sentry_options_get_symbolize_stacktraces
+Relative Address  : 0x0001bdaa
+Ordinal           : 139 (0x8b)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_get_traces_sample_rate
+Address           : IAPSDK_orig.sentry_options_get_traces_sample_rate
+Relative Address  : 0x0001be05
+Ordinal           : 140 (0x8c)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_get_transport_thread_name
+Address           : IAPSDK_orig.sentry_options_get_transport_thread_name
+Relative Address  : 0x0001be60
+Ordinal           : 141 (0x8d)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_get_user_agent
+Address           : IAPSDK_orig.sentry_options_get_user_agent
+Relative Address  : 0x0001beb3
+Ordinal           : 142 (0x8e)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_new
+Address           : IAPSDK_orig.sentry_options_new
+Relative Address  : 0x0001bef0
+Ordinal           : 143 (0x8f)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_auto_session_tracking
+Address           : IAPSDK_orig.sentry_options_set_auto_session_tracking
+Relative Address  : 0x0001bf38
+Ordinal           : 144 (0x90)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_backend
+Address           : IAPSDK_orig.sentry_options_set_backend
+Relative Address  : 0x0001bf88
+Ordinal           : 145 (0x91)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_before_send
+Address           : IAPSDK_orig.sentry_options_set_before_send
+Relative Address  : 0x0001bfce
+Ordinal           : 146 (0x92)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_ca_certs
+Address           : IAPSDK_orig.sentry_options_set_ca_certs
+Relative Address  : 0x0001c015
+Ordinal           : 147 (0x93)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_ca_certs_n
+Address           : IAPSDK_orig.sentry_options_set_ca_certs_n
+Relative Address  : 0x0001c05b
+Ordinal           : 148 (0x94)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_database_path
+Address           : IAPSDK_orig.sentry_options_set_database_path
+Relative Address  : 0x0001c0a6
+Ordinal           : 149 (0x95)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_database_path_n
+Address           : IAPSDK_orig.sentry_options_set_database_path_n
+Relative Address  : 0x0001c0f6
+Ordinal           : 150 (0x96)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_database_pathw
+Address           : IAPSDK_orig.sentry_options_set_database_pathw
+Relative Address  : 0x0001c147
+Ordinal           : 151 (0x97)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_database_pathw_n
+Address           : IAPSDK_orig.sentry_options_set_database_pathw_n
+Relative Address  : 0x0001c199
+Ordinal           : 152 (0x98)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_debug
+Address           : IAPSDK_orig.sentry_options_set_debug
+Relative Address  : 0x0001c1e2
+Ordinal           : 153 (0x99)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_dist
+Address           : IAPSDK_orig.sentry_options_set_dist
+Relative Address  : 0x0001c21f
+Ordinal           : 154 (0x9a)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_dist_n
+Address           : IAPSDK_orig.sentry_options_set_dist_n
+Relative Address  : 0x0001c25d
+Ordinal           : 155 (0x9b)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_dsn
+Address           : IAPSDK_orig.sentry_options_set_dsn
+Relative Address  : 0x0001c29a
+Ordinal           : 156 (0x9c)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_dsn_n
+Address           : IAPSDK_orig.sentry_options_set_dsn_n
+Relative Address  : 0x0001c2d6
+Ordinal           : 157 (0x9d)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_environment
+Address           : IAPSDK_orig.sentry_options_set_environment
+Relative Address  : 0x0001c31a
+Ordinal           : 158 (0x9e)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_environment_n
+Address           : IAPSDK_orig.sentry_options_set_environment_n
+Relative Address  : 0x0001c366
+Ordinal           : 159 (0x9f)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_handler_path
+Address           : IAPSDK_orig.sentry_options_set_handler_path
+Relative Address  : 0x0001c3b3
+Ordinal           : 160 (0xa0)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_handler_path_n
+Address           : IAPSDK_orig.sentry_options_set_handler_path_n
+Relative Address  : 0x0001c401
+Ordinal           : 161 (0xa1)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_handler_pathw
+Address           : IAPSDK_orig.sentry_options_set_handler_pathw
+Relative Address  : 0x0001c450
+Ordinal           : 162 (0xa2)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_handler_pathw_n
+Address           : IAPSDK_orig.sentry_options_set_handler_pathw_n
+Relative Address  : 0x0001c4a0
+Ordinal           : 163 (0xa3)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_http_proxy
+Address           : IAPSDK_orig.sentry_options_set_http_proxy
+Relative Address  : 0x0001c4ed
+Ordinal           : 164 (0xa4)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_http_proxy_n
+Address           : IAPSDK_orig.sentry_options_set_http_proxy_n
+Relative Address  : 0x0001c537
+Ordinal           : 165 (0xa5)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_logger
+Address           : IAPSDK_orig.sentry_options_set_logger
+Relative Address  : 0x0001c57d
+Ordinal           : 166 (0xa6)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_max_breadcrumbs
+Address           : IAPSDK_orig.sentry_options_set_max_breadcrumbs
+Relative Address  : 0x0001c5c6
+Ordinal           : 167 (0xa7)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_max_spans
+Address           : IAPSDK_orig.sentry_options_set_max_spans
+Relative Address  : 0x0001c612
+Ordinal           : 168 (0xa8)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_on_crash
+Address           : IAPSDK_orig.sentry_options_set_on_crash
+Relative Address  : 0x0001c657
+Ordinal           : 169 (0xa9)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_release
+Address           : IAPSDK_orig.sentry_options_set_release
+Relative Address  : 0x0001c69a
+Ordinal           : 170 (0xaa)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_release_n
+Address           : IAPSDK_orig.sentry_options_set_release_n
+Relative Address  : 0x0001c6de
+Ordinal           : 171 (0xab)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_require_user_consent
+Address           : IAPSDK_orig.sentry_options_set_require_user_consent
+Relative Address  : 0x0001c72f
+Ordinal           : 172 (0xac)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_sample_rate
+Address           : IAPSDK_orig.sentry_options_set_sample_rate
+Relative Address  : 0x0001c782
+Ordinal           : 173 (0xad)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_sdk_name
+Address           : IAPSDK_orig.sentry_options_set_sdk_name
+Relative Address  : 0x0001c7c9
+Ordinal           : 174 (0xae)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_sdk_name_n
+Address           : IAPSDK_orig.sentry_options_set_sdk_name_n
+Relative Address  : 0x0001c80f
+Ordinal           : 175 (0xaf)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_shutdown_timeout
+Address           : IAPSDK_orig.sentry_options_set_shutdown_timeout
+Relative Address  : 0x0001c85d
+Ordinal           : 176 (0xb0)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_symbolize_stacktraces
+Address           : IAPSDK_orig.sentry_options_set_symbolize_stacktraces
+Relative Address  : 0x0001c8b6
+Ordinal           : 177 (0xb1)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_system_crash_reporter_enabled
+Address           : IAPSDK_orig.sentry_options_set_system_crash_reporter_enabled
+Relative Address  : 0x0001c91c
+Ordinal           : 178 (0xb2)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_traces_sample_rate
+Address           : IAPSDK_orig.sentry_options_set_traces_sample_rate
+Relative Address  : 0x0001c97f
+Ordinal           : 179 (0xb3)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_transport
+Address           : IAPSDK_orig.sentry_options_set_transport
+Relative Address  : 0x0001c9ce
+Ordinal           : 180 (0xb4)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_transport_thread_name
+Address           : IAPSDK_orig.sentry_options_set_transport_thread_name
+Relative Address  : 0x0001ca20
+Ordinal           : 181 (0xb5)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_options_set_transport_thread_name_n
+Address           : IAPSDK_orig.sentry_options_set_transport_thread_name_n
+Relative Address  : 0x0001ca80
+Ordinal           : 182 (0xb6)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_reinstall_backend
+Address           : IAPSDK_orig.sentry_reinstall_backend
+Relative Address  : 0x0001cad0
+Ordinal           : 183 (0xb7)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_remove_context
+Address           : IAPSDK_orig.sentry_remove_context
+Relative Address  : 0x0001cb0b
+Ordinal           : 184 (0xb8)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_remove_context_n
+Address           : IAPSDK_orig.sentry_remove_context_n
+Relative Address  : 0x0001cb45
+Ordinal           : 185 (0xb9)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_remove_extra
+Address           : IAPSDK_orig.sentry_remove_extra
+Relative Address  : 0x0001cb7d
+Ordinal           : 186 (0xba)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_remove_extra_n
+Address           : IAPSDK_orig.sentry_remove_extra_n
+Relative Address  : 0x0001cbb3
+Ordinal           : 187 (0xbb)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_remove_fingerprint
+Address           : IAPSDK_orig.sentry_remove_fingerprint
+Relative Address  : 0x0001cbef
+Ordinal           : 188 (0xbc)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_remove_tag
+Address           : IAPSDK_orig.sentry_remove_tag
+Relative Address  : 0x0001cc27
+Ordinal           : 189 (0xbd)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_remove_tag_n
+Address           : IAPSDK_orig.sentry_remove_tag_n
+Relative Address  : 0x0001cc59
+Ordinal           : 190 (0xbe)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_remove_user
+Address           : IAPSDK_orig.sentry_remove_user
+Relative Address  : 0x0001cc8c
+Ordinal           : 191 (0xbf)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_set_context
+Address           : IAPSDK_orig.sentry_set_context
+Relative Address  : 0x0001ccbe
+Ordinal           : 192 (0xc0)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_set_context_n
+Address           : IAPSDK_orig.sentry_set_context_n
+Relative Address  : 0x0001ccf2
+Ordinal           : 193 (0xc1)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_set_extra
+Address           : IAPSDK_orig.sentry_set_extra
+Relative Address  : 0x0001cd24
+Ordinal           : 194 (0xc2)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_set_extra_n
+Address           : IAPSDK_orig.sentry_set_extra_n
+Relative Address  : 0x0001cd54
+Ordinal           : 195 (0xc3)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_set_fingerprint
+Address           : IAPSDK_orig.sentry_set_fingerprint
+Relative Address  : 0x0001cd8a
+Ordinal           : 196 (0xc4)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_set_fingerprint_n
+Address           : IAPSDK_orig.sentry_set_fingerprint_n
+Relative Address  : 0x0001cdc6
+Ordinal           : 197 (0xc5)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_set_level
+Address           : IAPSDK_orig.sentry_set_level
+Relative Address  : 0x0001cdfc
+Ordinal           : 198 (0xc6)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_set_span
+Address           : IAPSDK_orig.sentry_set_span
+Relative Address  : 0x0001ce29
+Ordinal           : 199 (0xc7)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_set_tag
+Address           : IAPSDK_orig.sentry_set_tag
+Relative Address  : 0x0001ce54
+Ordinal           : 200 (0xc8)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_set_tag_n
+Address           : IAPSDK_orig.sentry_set_tag_n
+Relative Address  : 0x0001ce80
+Ordinal           : 201 (0xc9)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_set_transaction
+Address           : IAPSDK_orig.sentry_set_transaction
+Relative Address  : 0x0001ceb4
+Ordinal           : 202 (0xca)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_set_transaction_n
+Address           : IAPSDK_orig.sentry_set_transaction_n
+Relative Address  : 0x0001cef0
+Ordinal           : 203 (0xcb)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_set_transaction_object
+Address           : IAPSDK_orig.sentry_set_transaction_object
+Relative Address  : 0x0001cf33
+Ordinal           : 204 (0xcc)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_set_user
+Address           : IAPSDK_orig.sentry_set_user
+Relative Address  : 0x0001cf6d
+Ordinal           : 205 (0xcd)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_shutdown
+Address           : IAPSDK_orig.sentry_shutdown
+Relative Address  : 0x0001cf99
+Ordinal           : 206 (0xce)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_span_finish
+Address           : IAPSDK_orig.sentry_span_finish
+Relative Address  : 0x0001cfc8
+Ordinal           : 207 (0xcf)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_span_iter_headers
+Address           : IAPSDK_orig.sentry_span_iter_headers
+Relative Address  : 0x0001d000
+Ordinal           : 208 (0xd0)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_span_remove_data
+Address           : IAPSDK_orig.sentry_span_remove_data
+Relative Address  : 0x0001d03d
+Ordinal           : 209 (0xd1)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_span_remove_data_n
+Address           : IAPSDK_orig.sentry_span_remove_data_n
+Relative Address  : 0x0001d07b
+Ordinal           : 210 (0xd2)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_span_remove_tag
+Address           : IAPSDK_orig.sentry_span_remove_tag
+Relative Address  : 0x0001d0b8
+Ordinal           : 211 (0xd3)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_span_remove_tag_n
+Address           : IAPSDK_orig.sentry_span_remove_tag_n
+Relative Address  : 0x0001d0f4
+Ordinal           : 212 (0xd4)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_span_set_data
+Address           : IAPSDK_orig.sentry_span_set_data
+Relative Address  : 0x0001d12e
+Ordinal           : 213 (0xd5)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_span_set_data_n
+Address           : IAPSDK_orig.sentry_span_set_data_n
+Relative Address  : 0x0001d166
+Ordinal           : 214 (0xd6)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_span_set_status
+Address           : IAPSDK_orig.sentry_span_set_status
+Relative Address  : 0x0001d1a0
+Ordinal           : 215 (0xd7)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_span_set_tag
+Address           : IAPSDK_orig.sentry_span_set_tag
+Relative Address  : 0x0001d1d7
+Ordinal           : 216 (0xd8)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_span_set_tag_n
+Address           : IAPSDK_orig.sentry_span_set_tag_n
+Relative Address  : 0x0001d20d
+Ordinal           : 217 (0xd9)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_span_start_child
+Address           : IAPSDK_orig.sentry_span_start_child
+Relative Address  : 0x0001d247
+Ordinal           : 218 (0xda)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_span_start_child_n
+Address           : IAPSDK_orig.sentry_span_start_child_n
+Relative Address  : 0x0001d285
+Ordinal           : 219 (0xdb)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_start_session
+Address           : IAPSDK_orig.sentry_start_session
+Relative Address  : 0x0001d2c0
+Ordinal           : 220 (0xdc)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_context_new
+Address           : IAPSDK_orig.sentry_transaction_context_new
+Relative Address  : 0x0001d300
+Ordinal           : 221 (0xdd)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_context_new_n
+Address           : IAPSDK_orig.sentry_transaction_context_new_n
+Relative Address  : 0x0001d34c
+Ordinal           : 222 (0xde)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_context_remove_sampled
+Address           : IAPSDK_orig.sentry_transaction_context_remove_sampled
+Relative Address  : 0x0001d3a3
+Ordinal           : 223 (0xdf)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_context_set_name
+Address           : IAPSDK_orig.sentry_transaction_context_set_name
+Relative Address  : 0x0001d3fd
+Ordinal           : 224 (0xe0)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_context_set_name_n
+Address           : IAPSDK_orig.sentry_transaction_context_set_name_n
+Relative Address  : 0x0001d453
+Ordinal           : 225 (0xe1)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_context_set_operation
+Address           : IAPSDK_orig.sentry_transaction_context_set_operation
+Relative Address  : 0x0001d4ae
+Ordinal           : 226 (0xe2)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_context_set_operation_n
+Address           : IAPSDK_orig.sentry_transaction_context_set_operation_n
+Relative Address  : 0x0001d50e
+Ordinal           : 227 (0xe3)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_context_set_sampled
+Address           : IAPSDK_orig.sentry_transaction_context_set_sampled
+Relative Address  : 0x0001d56c
+Ordinal           : 228 (0xe4)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_context_update_from_header
+Address           : IAPSDK_orig.sentry_transaction_context_update_from_header
+Relative Address  : 0x0001d5cd
+Ordinal           : 229 (0xe5)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_context_update_from_header_n
+Address           : IAPSDK_orig.sentry_transaction_context_update_from_header_n
+Relative Address  : 0x0001d637
+Ordinal           : 230 (0xe6)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_finish
+Address           : IAPSDK_orig.sentry_transaction_finish
+Relative Address  : 0x0001d68d
+Ordinal           : 231 (0xe7)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_iter_headers
+Address           : IAPSDK_orig.sentry_transaction_iter_headers
+Relative Address  : 0x0001d6d3
+Ordinal           : 232 (0xe8)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_remove_data
+Address           : IAPSDK_orig.sentry_transaction_remove_data
+Relative Address  : 0x0001d71e
+Ordinal           : 233 (0xe9)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_remove_data_n
+Address           : IAPSDK_orig.sentry_transaction_remove_data_n
+Relative Address  : 0x0001d76a
+Ordinal           : 234 (0xea)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_remove_tag
+Address           : IAPSDK_orig.sentry_transaction_remove_tag
+Relative Address  : 0x0001d7b5
+Ordinal           : 235 (0xeb)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_remove_tag_n
+Address           : IAPSDK_orig.sentry_transaction_remove_tag_n
+Relative Address  : 0x0001d7ff
+Ordinal           : 236 (0xec)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_set_data
+Address           : IAPSDK_orig.sentry_transaction_set_data
+Relative Address  : 0x0001d847
+Ordinal           : 237 (0xed)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_set_data_n
+Address           : IAPSDK_orig.sentry_transaction_set_data_n
+Relative Address  : 0x0001d88d
+Ordinal           : 238 (0xee)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_set_name
+Address           : IAPSDK_orig.sentry_transaction_set_name
+Relative Address  : 0x0001d8d3
+Ordinal           : 239 (0xef)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_set_name_n
+Address           : IAPSDK_orig.sentry_transaction_set_name_n
+Relative Address  : 0x0001d919
+Ordinal           : 240 (0xf0)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_set_status
+Address           : IAPSDK_orig.sentry_transaction_set_status
+Relative Address  : 0x0001d961
+Ordinal           : 241 (0xf1)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_set_tag
+Address           : IAPSDK_orig.sentry_transaction_set_tag
+Relative Address  : 0x0001d9a6
+Ordinal           : 242 (0xf2)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_set_tag_n
+Address           : IAPSDK_orig.sentry_transaction_set_tag_n
+Relative Address  : 0x0001d9ea
+Ordinal           : 243 (0xf3)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_start
+Address           : IAPSDK_orig.sentry_transaction_start
+Relative Address  : 0x0001da2c
+Ordinal           : 244 (0xf4)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_start_child
+Address           : IAPSDK_orig.sentry_transaction_start_child
+Relative Address  : 0x0001da70
+Ordinal           : 245 (0xf5)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transaction_start_child_n
+Address           : IAPSDK_orig.sentry_transaction_start_child_n
+Relative Address  : 0x0001dabc
+Ordinal           : 246 (0xf6)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transport_free
+Address           : IAPSDK_orig.sentry_transport_free
+Relative Address  : 0x0001daff
+Ordinal           : 247 (0xf7)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transport_new
+Address           : IAPSDK_orig.sentry_transport_new
+Relative Address  : 0x0001db36
+Ordinal           : 248 (0xf8)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transport_set_flush_func
+Address           : IAPSDK_orig.sentry_transport_set_flush_func
+Relative Address  : 0x0001db77
+Ordinal           : 249 (0xf9)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transport_set_free_func
+Address           : IAPSDK_orig.sentry_transport_set_free_func
+Relative Address  : 0x0001dbc2
+Ordinal           : 250 (0xfa)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transport_set_shutdown_func
+Address           : IAPSDK_orig.sentry_transport_set_shutdown_func
+Relative Address  : 0x0001dc10
+Ordinal           : 251 (0xfb)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transport_set_startup_func
+Address           : IAPSDK_orig.sentry_transport_set_startup_func
+Relative Address  : 0x0001dc61
+Ordinal           : 252 (0xfc)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_transport_set_state
+Address           : IAPSDK_orig.sentry_transport_set_state
+Relative Address  : 0x0001dcaa
+Ordinal           : 253 (0xfd)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_unwind_stack
+Address           : IAPSDK_orig.sentry_unwind_stack
+Relative Address  : 0x0001dce5
+Ordinal           : 254 (0xfe)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_unwind_stack_from_ucontext
+Address           : IAPSDK_orig.sentry_unwind_stack_from_ucontext
+Relative Address  : 0x0001dd27
+Ordinal           : 255 (0xff)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_user_consent_get
+Address           : IAPSDK_orig.sentry_user_consent_get
+Relative Address  : 0x0001dd6d
+Ordinal           : 256 (0x100)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_user_consent_give
+Address           : IAPSDK_orig.sentry_user_consent_give
+Relative Address  : 0x0001ddaa
+Ordinal           : 257 (0x101)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_user_consent_reset
+Address           : IAPSDK_orig.sentry_user_consent_reset
+Relative Address  : 0x0001dde9
+Ordinal           : 258 (0x102)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_user_consent_revoke
+Address           : IAPSDK_orig.sentry_user_consent_revoke
+Relative Address  : 0x0001de2a
+Ordinal           : 259 (0x103)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_uuid_as_bytes
+Address           : IAPSDK_orig.sentry_uuid_as_bytes
+Relative Address  : 0x0001de66
+Ordinal           : 260 (0x104)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_uuid_as_string
+Address           : IAPSDK_orig.sentry_uuid_as_string
+Relative Address  : 0x0001de9d
+Ordinal           : 261 (0x105)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_uuid_from_bytes
+Address           : IAPSDK_orig.sentry_uuid_from_bytes
+Relative Address  : 0x0001ded6
+Ordinal           : 262 (0x106)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_uuid_from_string
+Address           : IAPSDK_orig.sentry_uuid_from_string
+Relative Address  : 0x0001df11
+Ordinal           : 263 (0x107)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_uuid_from_string_n
+Address           : IAPSDK_orig.sentry_uuid_from_string_n
+Relative Address  : 0x0001df4f
+Ordinal           : 264 (0x108)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_uuid_is_nil
+Address           : IAPSDK_orig.sentry_uuid_is_nil
+Relative Address  : 0x0001df88
+Ordinal           : 265 (0x109)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_uuid_new_v4
+Address           : IAPSDK_orig.sentry_uuid_new_v4
+Relative Address  : 0x0001dfba
+Ordinal           : 266 (0x10a)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_uuid_nil
+Address           : IAPSDK_orig.sentry_uuid_nil
+Relative Address  : 0x0001dfe9
+Ordinal           : 267 (0x10b)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_append
+Address           : IAPSDK_orig.sentry_value_append
+Relative Address  : 0x0001e019
+Ordinal           : 268 (0x10c)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_as_double
+Address           : IAPSDK_orig.sentry_value_as_double
+Relative Address  : 0x0001e050
+Ordinal           : 269 (0x10d)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_as_int32
+Address           : IAPSDK_orig.sentry_value_as_int32
+Relative Address  : 0x0001e089
+Ordinal           : 270 (0x10e)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_as_string
+Address           : IAPSDK_orig.sentry_value_as_string
+Relative Address  : 0x0001e0c2
+Ordinal           : 271 (0x10f)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_decref
+Address           : IAPSDK_orig.sentry_value_decref
+Relative Address  : 0x0001e0f9
+Ordinal           : 272 (0x110)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_freeze
+Address           : IAPSDK_orig.sentry_value_freeze
+Relative Address  : 0x0001e12d
+Ordinal           : 273 (0x111)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_get_by_index
+Address           : IAPSDK_orig.sentry_value_get_by_index
+Relative Address  : 0x0001e167
+Ordinal           : 274 (0x112)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_get_by_index_owned
+Address           : IAPSDK_orig.sentry_value_get_by_index_owned
+Relative Address  : 0x0001e1ad
+Ordinal           : 275 (0x113)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_get_by_key
+Address           : IAPSDK_orig.sentry_value_get_by_key
+Relative Address  : 0x0001e1f1
+Ordinal           : 276 (0x114)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_get_by_key_n
+Address           : IAPSDK_orig.sentry_value_get_by_key_n
+Relative Address  : 0x0001e22f
+Ordinal           : 277 (0x115)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_get_by_key_owned
+Address           : IAPSDK_orig.sentry_value_get_by_key_owned
+Relative Address  : 0x0001e273
+Ordinal           : 278 (0x116)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_get_by_key_owned_n
+Address           : IAPSDK_orig.sentry_value_get_by_key_owned_n
+Relative Address  : 0x0001e2bd
+Ordinal           : 279 (0x117)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_get_length
+Address           : IAPSDK_orig.sentry_value_get_length
+Relative Address  : 0x0001e301
+Ordinal           : 280 (0x118)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_get_type
+Address           : IAPSDK_orig.sentry_value_get_type
+Relative Address  : 0x0001e33b
+Ordinal           : 281 (0x119)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_incref
+Address           : IAPSDK_orig.sentry_value_incref
+Relative Address  : 0x0001e371
+Ordinal           : 282 (0x11a)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_is_frozen
+Address           : IAPSDK_orig.sentry_value_is_frozen
+Relative Address  : 0x0001e3a8
+Ordinal           : 283 (0x11b)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_is_null
+Address           : IAPSDK_orig.sentry_value_is_null
+Relative Address  : 0x0001e3e0
+Ordinal           : 284 (0x11c)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_is_true
+Address           : IAPSDK_orig.sentry_value_is_true
+Relative Address  : 0x0001e416
+Ordinal           : 285 (0x11d)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_new_bool
+Address           : IAPSDK_orig.sentry_value_new_bool
+Relative Address  : 0x0001e44d
+Ordinal           : 286 (0x11e)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_new_breadcrumb
+Address           : IAPSDK_orig.sentry_value_new_breadcrumb
+Relative Address  : 0x0001e48b
+Ordinal           : 287 (0x11f)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_new_breadcrumb_n
+Address           : IAPSDK_orig.sentry_value_new_breadcrumb_n
+Relative Address  : 0x0001e4d1
+Ordinal           : 288 (0x120)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_new_double
+Address           : IAPSDK_orig.sentry_value_new_double
+Relative Address  : 0x0001e513
+Ordinal           : 289 (0x121)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_new_event
+Address           : IAPSDK_orig.sentry_value_new_event
+Relative Address  : 0x0001e54e
+Ordinal           : 290 (0x122)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_new_exception
+Address           : IAPSDK_orig.sentry_value_new_exception
+Relative Address  : 0x0001e58c
+Ordinal           : 291 (0x123)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_new_exception_n
+Address           : IAPSDK_orig.sentry_value_new_exception_n
+Relative Address  : 0x0001e5d0
+Ordinal           : 292 (0x124)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_new_int32
+Address           : IAPSDK_orig.sentry_value_new_int32
+Relative Address  : 0x0001e610
+Ordinal           : 293 (0x125)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_new_list
+Address           : IAPSDK_orig.sentry_value_new_list
+Relative Address  : 0x0001e649
+Ordinal           : 294 (0x126)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_new_message_event
+Address           : IAPSDK_orig.sentry_value_new_message_event
+Relative Address  : 0x0001e68a
+Ordinal           : 295 (0x127)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_new_message_event_n
+Address           : IAPSDK_orig.sentry_value_new_message_event_n
+Relative Address  : 0x0001e6d6
+Ordinal           : 296 (0x128)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_new_null
+Address           : IAPSDK_orig.sentry_value_new_null
+Relative Address  : 0x0001e719
+Ordinal           : 297 (0x129)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_new_object
+Address           : IAPSDK_orig.sentry_value_new_object
+Relative Address  : 0x0001e753
+Ordinal           : 298 (0x12a)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_new_stacktrace
+Address           : IAPSDK_orig.sentry_value_new_stacktrace
+Relative Address  : 0x0001e793
+Ordinal           : 299 (0x12b)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_new_string
+Address           : IAPSDK_orig.sentry_value_new_string
+Relative Address  : 0x0001e7d3
+Ordinal           : 300 (0x12c)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_new_string_n
+Address           : IAPSDK_orig.sentry_value_new_string_n
+Relative Address  : 0x0001e811
+Ordinal           : 301 (0x12d)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_new_thread
+Address           : IAPSDK_orig.sentry_value_new_thread
+Relative Address  : 0x0001e84f
+Ordinal           : 302 (0x12e)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_new_thread_n
+Address           : IAPSDK_orig.sentry_value_new_thread_n
+Relative Address  : 0x0001e88d
+Ordinal           : 303 (0x12f)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_new_user_feedback
+Address           : IAPSDK_orig.sentry_value_new_user_feedback
+Relative Address  : 0x0001e8d2
+Ordinal           : 304 (0x130)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_new_user_feedback_n
+Address           : IAPSDK_orig.sentry_value_new_user_feedback_n
+Relative Address  : 0x0001e91e
+Ordinal           : 305 (0x131)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_refcount
+Address           : IAPSDK_orig.sentry_value_refcount
+Relative Address  : 0x0001e961
+Ordinal           : 306 (0x132)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_remove_by_index
+Address           : IAPSDK_orig.sentry_value_remove_by_index
+Relative Address  : 0x0001e9a0
+Ordinal           : 307 (0x133)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_remove_by_key
+Address           : IAPSDK_orig.sentry_value_remove_by_key
+Relative Address  : 0x0001e9e4
+Ordinal           : 308 (0x134)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_remove_by_key_n
+Address           : IAPSDK_orig.sentry_value_remove_by_key_n
+Relative Address  : 0x0001ea28
+Ordinal           : 309 (0x135)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_set_by_index
+Address           : IAPSDK_orig.sentry_value_set_by_index
+Relative Address  : 0x0001ea6b
+Ordinal           : 310 (0x136)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_set_by_key
+Address           : IAPSDK_orig.sentry_value_set_by_key
+Relative Address  : 0x0001eaa9
+Ordinal           : 311 (0x137)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_set_by_key_n
+Address           : IAPSDK_orig.sentry_value_set_by_key_n
+Relative Address  : 0x0001eae7
+Ordinal           : 312 (0x138)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_set_stacktrace
+Address           : IAPSDK_orig.sentry_value_set_stacktrace
+Relative Address  : 0x0001eb29
+Ordinal           : 313 (0x139)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_to_json
+Address           : IAPSDK_orig.sentry_value_to_json
+Relative Address  : 0x0001eb66
+Ordinal           : 314 (0x13a)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : sentry_value_to_msgpack
+Address           : IAPSDK_orig.sentry_value_to_msgpack
+Relative Address  : 0x0001eb9f
+Ordinal           : 315 (0x13b)
+Filename          : IAPSDK.dll
+Full Path         : C:\Users\User\Downloads\BambooRO_v6\BambooRO_v6\IAPSDK.dll
+Type              : Exported Function
+==================================================
+
