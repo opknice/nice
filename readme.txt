@@ -1,8 +1,11 @@
 เป็นการ hooking patch game โดยใช้ proxy.cpp และ index ในการดักจับ traffic
 
+cmd start >> : Developer powershell for vscode
 cd "C:\Users\User\Downloads\sidebyside"
 
-cl.exe /LD proxy.cpp /Fe:version.dll
+
+cl.exe /LD proxy.cpp /Fe:version.dll /link ws2_32.lib user32.lib
+
 
 
 

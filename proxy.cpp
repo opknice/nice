@@ -2,106 +2,120 @@
 #include <windows.h>
 #include <winsock2.h>
 #include <stdio.h>
-#include <time.h>
 
 #pragma comment(lib, "ws2_32.lib")
 
 // --- Definitions ---
 typedef int (WSAAPI* send_t)(SOCKET s, const char* buf, int len, int flags);
 typedef int (WSAAPI* recv_t)(SOCKET s, char* buf, int len, int flags);
+typedef int (WSAAPI* connect_t)(SOCKET s, const struct sockaddr* name, int namelen);
+typedef int (WSAAPI* wsaconnect_t)(SOCKET s, const struct sockaddr* name, int namelen, LPWSABUF lpCallerData, LPWSABUF lpCalleeData, LPQOS lpSQOS, LPQOS lpGQOS);
 
 send_t pOriginalSend = NULL;
 recv_t pOriginalRecv = NULL;
-BYTE origSendBytes[5], origRecvBytes[5];
+connect_t pOriginalConnect = NULL;
+wsaconnect_t pOriginalWSAConnect = NULL;
 
-// --- Helper: แปลง OpCode เป็นข้อความ ---
-const char* GetOpName(unsigned short opcode) {
-    switch (opcode) {
-        case 0x0078: return "WALK";
-        case 0x008D: return "ATTACK";
-        case 0x0093: return "USE_SKILL";
-        case 0x0064: return "CHAT_SEND";
-        case 0x0080: return "ITEM_PICKUP";
-        case 0x00A7: return "ITEM_USE";
-        default: return "UNKNOWN";
-    }
-}
+BYTE origSendBytes[5], origRecvBytes[5], origConnectBytes[5], origWSAConnectBytes[5];
 
-// --- Logger Function ---
-void WriteLog(const char* type, const char* buf, int len) {
-    FILE* f;
-    if (fopen_s(&f, "C:\\Users\\Public\\bamboo_analysis.log", "a") == 0) {
-        time_t now = time(0);
-        struct tm ltm;
-        localtime_s(&ltm, &now);
-
-        // ดึง OpCode (2 bytes แรกหลังจาก Length หรือตามโครงสร้าง RO)
-        // ปกติ RO: [OpCode 2 bytes][Data...] หรือ [Len 2 bytes][OpCode 2 bytes]
-        unsigned short opcode = *(unsigned short*)(buf); 
-        
-        fprintf(f, "[%02d:%02d:%02d] [%s] ID: %04X (%s) | Len: %d | Hex: ", 
-                ltm.tm_hour, ltm.tm_min, ltm.tm_sec, type, opcode, GetOpName(opcode), len);
-        
-        for (int i = 0; i < len; i++) fprintf(f, "%02X ", (unsigned char)buf[i]);
-        fprintf(f, "\n");
-        fclose(f);
-    }
-}
-
-// --- Hooks ---
-int WSAAPI MySendHook(SOCKET s, const char* buf, int len, int flags) {
-    WriteLog("C->S", buf, len);
-    // Trampoline logic (Inline Hook)
+// Helper สำหรับเขียน Memory แบบปลอดภัย
+void WriteToMemory(void* target, void* data, int len) {
     DWORD old;
-    VirtualProtect(pOriginalSend, 5, PAGE_EXECUTE_READWRITE, &old);
-    memcpy(pOriginalSend, origSendBytes, 5);
+    VirtualProtect(target, len, PAGE_EXECUTE_READWRITE, &old);
+    memcpy(target, data, len);
+    VirtualProtect(target, len, old, &old);
+}
+
+// --- Hook Connect/WSAConnect Logic ---
+void RedirectIfGamePort(const struct sockaddr* name) {
+    struct sockaddr_in* addr = (struct sockaddr_in*)name;
+    unsigned short port = ntohs(addr->sin_port);
+    // ดักเฉพาะพอร์ต Login/Zone ของ RO (ปกติ 6900, 6121 หรือตามเซิร์ฟเวอร์)
+    if (port == 6900 || port == 6121) {
+        addr->sin_addr.s_addr = inet_addr("127.0.0.1");
+        addr->sin_port = htons(6991);
+    }
+}
+
+int WSAAPI MyConnectHook(SOCKET s, const struct sockaddr* name, int namelen) {
+    RedirectIfGamePort(name);
+    WriteToMemory(pOriginalConnect, origConnectBytes, 5);
+    int res = pOriginalConnect(s, name, namelen);
+    
+    BYTE jmp[5] = { 0xE9 };
+    *(DWORD*)(jmp + 1) = (DWORD)MyConnectHook - (DWORD)pOriginalConnect - 5;
+    WriteToMemory(pOriginalConnect, jmp, 5);
+    return res;
+}
+
+int WSAAPI MyWSAConnectHook(SOCKET s, const struct sockaddr* name, int namelen, LPWSABUF lpCallerData, LPWSABUF lpCalleeData, LPQOS lpSQOS, LPQOS lpGQOS) {
+    RedirectIfGamePort(name);
+    WriteToMemory(pOriginalWSAConnect, origWSAConnectBytes, 5);
+    int res = pOriginalWSAConnect(s, name, namelen, lpCallerData, lpCalleeData, lpSQOS, lpGQOS);
+    
+    BYTE jmp[5] = { 0xE9 };
+    *(DWORD*)(jmp + 1) = (DWORD)MyWSAConnectHook - (DWORD)pOriginalWSAConnect - 5;
+    WriteToMemory(pOriginalWSAConnect, jmp, 5);
+    return res;
+}
+
+// --- Send Hook: Bypass Gepard 269 bytes ---
+int WSAAPI MySendHook(SOCKET s, const char* buf, int len, int flags) {
+    if (len == 269) { // Gepard Heartbeat/Verification
+        WriteToMemory(pOriginalSend, origSendBytes, 5);
+        int res = pOriginalSend(s, buf, len, flags);
+        BYTE jmp[5] = { 0xE9 };
+        *(DWORD*)(jmp + 1) = (DWORD)MySendHook - (DWORD)pOriginalSend - 5;
+        WriteToMemory(pOriginalSend, jmp, 5);
+        return res;
+    }
+    // ปกติให้ OpenKore จัดการ
+    WriteToMemory(pOriginalSend, origSendBytes, 5);
     int res = pOriginalSend(s, buf, len, flags);
     BYTE jmp[5] = { 0xE9 };
     *(DWORD*)(jmp + 1) = (DWORD)MySendHook - (DWORD)pOriginalSend - 5;
-    memcpy(pOriginalSend, jmp, 5);
-    VirtualProtect(pOriginalSend, 5, old, &old);
+    WriteToMemory(pOriginalSend, jmp, 5);
     return res;
 }
 
+// --- Recv Hook: Bypass Gepard 2760 bytes ---
 int WSAAPI MyRecvHook(SOCKET s, char* buf, int len, int flags) {
-    int res = 0;
-    // เรียกของจริงก่อนเพื่อให้ได้ Data มาใน buf
-    DWORD old;
-    VirtualProtect(pOriginalRecv, 5, PAGE_EXECUTE_READWRITE, &old);
-    memcpy(pOriginalRecv, origRecvBytes, 5);
-    res = pOriginalRecv(s, buf, len, flags);
+    WriteToMemory(pOriginalRecv, origRecvBytes, 5);
+    int res = pOriginalRecv(s, buf, len, flags);
     BYTE jmp[5] = { 0xE9 };
     *(DWORD*)(jmp + 1) = (DWORD)MyRecvHook - (DWORD)pOriginalRecv - 5;
-    memcpy(pOriginalRecv, jmp, 5);
-    VirtualProtect(pOriginalRecv, 5, old, &old);
+    WriteToMemory(pOriginalRecv, jmp, 5);
 
-    if (res > 0) WriteLog("S->C", buf, res);
+    if (res == 2760) return res; // Pass-through Gepard data
     return res;
 }
 
-// --- Injection Setup ---
 void StartHooking() {
     HMODULE hWs2 = GetModuleHandleA("ws2_32.dll");
     pOriginalSend = (send_t)GetProcAddress(hWs2, "send");
     pOriginalRecv = (recv_t)GetProcAddress(hWs2, "recv");
+    pOriginalConnect = (connect_t)GetProcAddress(hWs2, "connect");
+    pOriginalWSAConnect = (wsaconnect_t)GetProcAddress(hWs2, "WSAConnect");
 
-    DWORD old;
-    // Hook Send
-    VirtualProtect(pOriginalSend, 5, PAGE_EXECUTE_READWRITE, &old);
-    memcpy(origSendBytes, pOriginalSend, 5);
-    BYTE jmpS[5] = { 0xE9 };
-    *(DWORD*)(jmpS + 1) = (DWORD)MySendHook - (DWORD)pOriginalSend - 5;
-    memcpy(pOriginalSend, jmpS, 5);
+    // ติดตั้ง Hook
+    auto install = [](void* target, void* hook, BYTE* backup) {
+        if (!target) return;
+        memcpy(backup, target, 5);
+        BYTE jmp[5] = { 0xE9 };
+        *(DWORD*)(jmp + 1) = (DWORD)hook - (DWORD)target - 5;
+        WriteToMemory(target, jmp, 5);
+    };
 
-    // Hook Recv
-    VirtualProtect(pOriginalRecv, 5, PAGE_EXECUTE_READWRITE, &old);
-    memcpy(origRecvBytes, pOriginalRecv, 5);
-    BYTE jmpR[5] = { 0xE9 };
-    *(DWORD*)(jmpR + 1) = (DWORD)MyRecvHook - (DWORD)pOriginalRecv - 5;
-    memcpy(pOriginalRecv, jmpR, 5);
+    install(pOriginalSend, MySendHook, origSendBytes);
+    install(pOriginalRecv, MyRecvHook, origRecvBytes);
+    install(pOriginalConnect, MyConnectHook, origConnectBytes);
+    install(pOriginalWSAConnect, MyWSAConnectHook, origWSAConnectBytes);
 }
 
 BOOL APIENTRY DllMain(HMODULE h, DWORD reason, LPVOID lp) {
-    if (reason == DLL_PROCESS_ATTACH) CreateThread(0, 0, (LPTHREAD_START_ROUTINE)StartHooking, 0, 0, 0);
+    if (reason == DLL_PROCESS_ATTACH) {
+        DisableThreadLibraryCalls(h);
+        CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)StartHooking, NULL, 0, NULL);
+    }
     return TRUE;
 }
