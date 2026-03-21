@@ -1,123 +1,29 @@
-[14:01:00] [C->S] ID: 0064 | Len: 55
-[14:01:00] [S->C] ID: 4753 | Len: 36
-[14:01:00] [C->S] ID: C392 | Len: 44
-[14:01:00] [C->S] ID: 0064 | Len: 55
-[14:01:00] [S->C] ID: 0AC4 | Len: 224
-[14:01:00] [C->S] ID: 4F50 | Len: 228
-[14:01:00] [C->S] ID: 0065 | Len: 17
-[14:01:00] [S->C] ID: 5448 | Len: 25
-[14:01:00] [C->S] ID: 2D2D | Len: 249
-[14:01:00] [S->C] ID: 0162 | Len: 4
-[14:01:00] [S->C] ID: 082D | Len: 428
-[14:01:00] [C->S] ID: 09A1 | Len: 2
-[14:01:00] [C->S] ID: 09A1 | Len: 2
-[14:01:00] [C->S] ID: 09A1 | Len: 2
-[14:01:00] [C->S] ID: 09A1 | Len: 2
-[14:01:00] [C->S] ID: 09A1 | Len: 2
-[14:01:00] [S->C] ID: 5448 | Len: 102
-[14:01:00] [S->C] ID: 227B | Len: 217
-[14:01:00] [S->C] ID: 0B72 | Len: 1416
-[14:01:00] [S->C] ID: 0B72 | Len: 354
-[14:01:01] [C->S] ID: 0066 | Len: 3
-[14:01:01] [S->C] ID: 0AC5 | Len: 156
-[14:01:01] [C->S] ID: 4F50 | Len: 228
-[14:01:01] [C->S] ID: 0436 | Len: 23
-[14:01:01] [S->C] ID: 5448 | Len: 25
-[14:01:01] [C->S] ID: 2D2D | Len: 460
-[14:01:01] [S->C] ID: 4753 | Len: 42
-[14:01:01] [S->C] ID: 5448 | Len: 102
-[14:01:01] [S->C] ID: 227B | Len: 410
-[14:01:01] [C->S] ID: C392 | Len: 44
-[14:01:01] [S->C] ID: 0B18 | Len: 69
-[14:01:01] [C->S] ID: 007D | Len: 2
-[14:01:01] [C->S] ID: 0360 | Len: 6
-[14:01:01] [C->S] ID: 08C9 | Len: 2
-[14:01:01] [S->C] ID: 5395 | Len: 245
-[14:01:01] [C->S] ID: 007D | Len: 2
-[14:01:01] [C->S] ID: 0360 | Len: 6
-[14:01:02] [S->C] ID: 01D7 | Len: 2048
-[14:01:02] [C->S] ID: 0447 | Len: 2
-[14:01:02] [S->C] ID: 0000 | Len: 810
-[14:01:02] [S->C] ID: 0B1B | Len: 2
-[14:01:02] [S->C] ID: 00B6 | Len: 6
-[14:01:02] [S->C] ID: 00B6 | Len: 12
-[14:01:03] [S->C] ID: 00B6 | Len: 6
-[14:01:03] [S->C] ID: 00B6 | Len: 6
-[14:01:04] [S->C] ID: 00B6 | Len: 6
-[14:01:04] [S->C] ID: 00B6 | Len: 6
-[14:01:05] [S->C] ID: 00B6 | Len: 6
-[14:01:05] [S->C] ID: 00B6 | Len: 6
-[14:01:06] [S->C] ID: 00B6 | Len: 6
-[14:01:06] [S->C] ID: 00B6 | Len: 6
-[14:01:07] [S->C] ID: 00B6 | Len: 6
-[14:01:07] [S->C] ID: 00B6 | Len: 6
-[14:01:08] [S->C] ID: 00B6 | Len: 6
-[14:01:08] [S->C] ID: 00B6 | Len: 6
-[14:01:09] [S->C] ID: 00B6 | Len: 6
-[14:01:09] [S->C] ID: 00B6 | Len: 6
-[14:01:10] [S->C] ID: 00B6 | Len: 6
-[14:01:10] [S->C] ID: 00B6 | Len: 6
-[14:01:11] [S->C] ID: 00B6 | Len: 6
-[14:01:11] [S->C] ID: 00B6 | Len: 6
-[14:01:12] [S->C] ID: 00B6 | Len: 6
-[14:01:12] [S->C] ID: 00B6 | Len: 6
-[14:01:13] [S->C] ID: 00B6 | Len: 6
-[14:01:13] [S->C] ID: 00B6 | Len: 6
-[14:01:13] [C->S] ID: 8280 | Len: 128
-[14:01:13] [C->S] ID: 0360 | Len: 6
-[14:01:13] [S->C] ID: 007F | Len: 6
-[14:01:14] [S->C] ID: 00B6 | Len: 6
-[14:01:14] [S->C] ID: 00B6 | Len: 6
-[14:01:15] [S->C] ID: 00B6 | Len: 6
-[14:01:15] [S->C] ID: 0B1D | Len: 2
-[14:01:15] [S->C] ID: 00B6 | Len: 6
-[14:01:16] [S->C] ID: 00B6 | Len: 6
-[14:01:16] [S->C] ID: 00B6 | Len: 6
-[14:01:17] [S->C] ID: 00B6 | Len: 6
-[14:01:17] [S->C] ID: 00B6 | Len: 6
-[14:01:18] [S->C] ID: 00B6 | Len: 6
-[14:01:18] [S->C] ID: 00B6 | Len: 6
-[14:01:19] [S->C] ID: 00B6 | Len: 6
-[14:01:19] [S->C] ID: 00B6 | Len: 6
-[14:01:20] [S->C] ID: 00B6 | Len: 6
-[14:01:20] [S->C] ID: 00B6 | Len: 6
-[14:01:21] [S->C] ID: 00B6 | Len: 6
-[14:01:21] [S->C] ID: 00B6 | Len: 6
-[14:01:22] [S->C] ID: 00B6 | Len: 6
-[14:01:22] [S->C] ID: 00B6 | Len: 6
-[14:01:23] [S->C] ID: 00B6 | Len: 6
-[14:01:23] [S->C] ID: 00B6 | Len: 6
-[14:01:24] [S->C] ID: 00B6 | Len: 6
-[14:01:24] [S->C] ID: 00B6 | Len: 6
-[14:01:25] [S->C] ID: 00B6 | Len: 6
-[14:01:25] [S->C] ID: 00B6 | Len: 6
-[14:01:25] [C->S] ID: 8280 | Len: 128
-[14:01:25] [C->S] ID: 0360 | Len: 6
-[14:01:26] [S->C] ID: 007F | Len: 6
-[14:01:26] [S->C] ID: 01C3 | Len: 72
-[14:01:26] [S->C] ID: 00B6 | Len: 6
-[14:01:26] [S->C] ID: 01C3 | Len: 63
-[14:01:26] [S->C] ID: 00B6 | Len: 6
-[14:01:27] [S->C] ID: 00B6 | Len: 6
-[14:01:27] [S->C] ID: 00B6 | Len: 6
-[14:01:28] [S->C] ID: 00B6 | Len: 6
-[14:01:28] [S->C] ID: 00B6 | Len: 6
-[14:01:30] [S->C] ID: 00B6 | Len: 6
-[14:01:30] [S->C] ID: 00B6 | Len: 6
-[14:01:31] [S->C] ID: 00B6 | Len: 6
-[14:01:31] [S->C] ID: 00B6 | Len: 6
-[14:01:32] [S->C] ID: 00B6 | Len: 6
-[14:01:32] [S->C] ID: 00B6 | Len: 6
-[14:01:33] [S->C] ID: 00B6 | Len: 6
-[14:01:33] [S->C] ID: 00B6 | Len: 6
-[14:01:34] [S->C] ID: 00B6 | Len: 6
-[14:01:34] [S->C] ID: 00B6 | Len: 6
-[14:01:35] [S->C] ID: 00B6 | Len: 6
-[14:01:35] [C->S] ID: 8280 | Len: 128
-[14:01:35] [C->S] ID: 018A | Len: 4
-[14:01:35] [S->C] ID: 018B | Len: 4
-[14:01:35] [C->S] ID: 4F50 | Len: 229
-[14:01:35] [S->C] ID: 5448 | Len: 25
-[14:01:35] [C->S] ID: 2D2D | Len: 1535
-[14:01:35] [S->C] ID: 5448 | Len: 102
-[14:01:35] [S->C] ID: 227B | Len: 410
+Console Log:
+[Proxy-Debug] Hooking System Started...
+[Proxy-Debug] All Hooks Installed Successfully!
+[Proxy-Debug] connect: Redirecting 139.99.40.25:6700 -> 127.0.0.1:6991
+[Proxy-Debug] Send: Bypassing Gepard (269 bytes)
+[Proxy-Debug] connect: Redirecting 57.129.129.49:6700 -> 127.0.0.1:6991
+[Proxy-Debug] Send: Bypassing Gepard (269 bytes)
+[Proxy-Debug] connect: Redirecting 217.182.75.124:6700 -> 127.0.0.1:6991
+[Proxy-Debug] Send: Bypassing Gepard (269 bytes)
+
+
+Openkore Log:
+Waiting Ragnarok Client to connect on (localhost:6991)
+Proxying to [My Custom Server]
+Connecting (136.110.172.32:25787)... connected
+Proxying to [My Custom Server]
+Connecting (136.110.172.32:25787)... connected
+Client disconnected
+Incoming data left in the buffer:
+================================================
+77 bytes   2026.03.21 14:12:28
+  0>  48 54 54 50 2F 31 2E 31    20 34 30 30 20 42 61 64    HTTP/1.1 400 Bad
+ 16>  20 52 65 71 75 65 73 74    0D 0A 43 6F 6E 74 65 6E     Request..Conten
+ 32>  74 2D 4C 65 6E 67 74 68    3A 20 30 0D 0A 4B 65 65    t-Length: 0..Kee
+ 48>  70 2D 41 6C 69 76 65 3A    20 74 69 6D 65 6F 75 74    p-Alive: timeout
+ 64>  3D 35 2C 20 6D 61 78 3D    35 0D 0A 0D 0A             =5, max=5....
+Only 77 bytes in the buffer, when 5448's packet length is supposed to be 97764076 (wrong recvpackets?)
+Disconnecting (136.110.172.32:25787)...disconnected
+Waiting Ragnarok Client to connect on (localhost:6991)
