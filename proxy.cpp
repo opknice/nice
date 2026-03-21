@@ -84,19 +84,38 @@ int WSAAPI MyWSAConnectHook(SOCKET s, const struct sockaddr* name, int namelen, 
     return res;
 }
 
+// --- Hook Send: Bypass Gepard ทุกขนาดที่ใช้เช็ค (269 และค่าอื่นๆ) ---
 int WSAAPI MySendHook(SOCKET s, const char* buf, int len, int flags) {
-    if (len == 269) DebugPrint("Send: Bypassing Gepard (269 bytes)");
+    // Gepard v3 มักจะส่ง Packet ขนาด 269 หรือสูงกว่าเพื่อเช็ค Integrity
+    if (len >= 260) { 
+        DebugPrint("Send: Gepard Heartbeat detected (%d bytes) - Fast Pass", len);
+        RemoveHook(pOriginalSend, origSendBytes);
+        int res = pOriginalSend(s, buf, len, flags);
+        PutHook(pOriginalSend, (void*)MySendHook, NULL);
+        return res; // ส่งตรงถึง Server ทันที บอทไม่ต้องรู้
+    }
+    
+    // Packet เกมปกติ (เดิน/ตี) ให้ผ่านกระบวนการ Log และเข้า OpenKore
     RemoveHook(pOriginalSend, origSendBytes);
     int res = pOriginalSend(s, buf, len, flags);
     PutHook(pOriginalSend, (void*)MySendHook, NULL);
     return res;
 }
 
+// --- Hook Recv: Bypass Gepard Data (2760 bytes) ---
 int WSAAPI MyRecvHook(SOCKET s, char* buf, int len, int flags) {
     RemoveHook(pOriginalRecv, origRecvBytes);
     int res = pOriginalRecv(s, buf, len, flags);
     PutHook(pOriginalRecv, (void*)MyRecvHook, NULL);
-    if (res == 2760) DebugPrint("Recv: Bypassing Gepard (2760 bytes)");
+
+    if (res > 0) {
+        // ถ้าเป็น Packet ขนาดใหญ่ (Gepard Data) ให้ Client รับไปเลย
+        // ห้ามให้ OpenKore แตะต้อง ไม่งั้นจะติด STT 6000 (Timeout)
+        if (res >= 2000) { 
+            DebugPrint("Recv: Gepard Data detected (%d bytes) - Fast Pass", res);
+            return res; 
+        }
+    }
     return res;
 }
 
